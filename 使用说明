@@ -1,0 +1,18 @@
+  据大佬说这个工具抢上传很厉害,就花了一天时间折腾,翻了网上的帖子都是很久之前的版本,新的版本没人折腾,我就花了一天时间折腾,结果让人很伤心,我的ESXI下面的虚拟群辉没法下载,欢迎大家测试一下.这个APP的网页基本上95%的汉化了,这是在之前的大佬的汉化基础上完善的.
+  下面看一下效果:
+   
+
+
+
+
+
+  我说一下简单的思路,因为这个app是Python的基础上写的,我就想到到了mo汉化,这个大佬们肯定都知道啦.汉化搞完,怎么上传到NAS里面呢,下面是路径:
+[url=]/volume2/@appstore/deluge/env/lib/python2.7/site-packages/deluge-2.0.3-py2.7.egg/deluge/i18n/zh_CN/LC_MESSAGES[/url]
+
+
+volume2是您的app安装位置
+替换命令是:(举例说明)
+cp -r /volume2/homes/LC_MESSAGES/. [url=]/volume2/@appstore/deluge/env/lib/python2.7/site-packages/deluge-2.0.3-py2.7.egg/deluge/i18n/zh_CN/LC_MESSAGES[/url]
+/volume2/homes/LC_MESSAGES/  是准备文件所在的文件夹.
+
+上传的方法老样子:先获得NAS的root权限,怎么获得,大家自行搜索,好了,这是本人的第一个原创帖子,希望大家多多支持,有不足的地方,欢迎大家批评指正,谢谢大家!
