@@ -7,12 +7,12 @@
 
 
   我说一下简单的思路,因为这个app是Python的基础上写的,我就想到到了mo汉化,这个大佬们肯定都知道啦.汉化搞完,怎么上传到NAS里面呢,下面是路径:
-[url=]/volume2/@appstore/deluge/env/lib/python2.7/site-packages/deluge-2.0.3-py2.7.egg/deluge/i18n/zh_CN/LC_MESSAGES[/url]
+/volume2/@appstore/deluge/env/lib/python2.7/site-packages/deluge-2.0.3-py2.7.egg/deluge/i18n/zh_CN/LC_MESSAGES
 
 
 volume2是您的app安装位置
 替换命令是:(举例说明)
-cp -r /volume2/homes/LC_MESSAGES/. [url=]/volume2/@appstore/deluge/env/lib/python2.7/site-packages/deluge-2.0.3-py2.7.egg/deluge/i18n/zh_CN/LC_MESSAGES[/url]
+cp -r /volume2/homes/LC_MESSAGES /volume2/@appstore/deluge/env/lib/python2.7/site-packages/deluge-2.0.3-py2.7.egg/deluge/i18n/zh_CN/LC_MESSAGES
 /volume2/homes/LC_MESSAGES/  是准备文件所在的文件夹.
 
 上传的方法老样子:先获得NAS的root权限,怎么获得,大家自行搜索,好了,这是本人的第一个原创帖子,希望大家多多支持,有不足的地方,欢迎大家批评指正,谢谢大家!
